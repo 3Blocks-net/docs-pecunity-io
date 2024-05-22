@@ -25,4 +25,4 @@ jobs:
       - name: Update Service via Webhook
         uses: newarifrh/portainer-service-webhook@v1
         with:
-          webhook_url: ${{ secrets.STACK_WEBHOOK_URL_DEV }}
+          webhook_url: ${{ secrets.STACK_WEBHOOK_URL }}

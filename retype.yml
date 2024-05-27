@@ -41,7 +41,7 @@ branding:
   label: Docs
 
 meta:
-  title: " - Write On! with Retype"
+  title: " - OctoDeFi Documentation"
 
 generator:
   paths: root

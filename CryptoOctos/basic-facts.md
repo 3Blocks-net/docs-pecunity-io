@@ -12,8 +12,14 @@ Be careful what you buy. NFTs can be sold by users at any price (even exorbitant
 
 # Basic Facts
 
-In Total there are 1000 NFTs. They are created either by breeding or by a Multisig Wallet. MultiSig Wallet is allowed to mint NFTs and put it on the marketplace in a statically calculated fair price that is dependent on the rarity of the NFT.
+In total there are 1000 CryptoOcto NFTs. All CryptoOctos are created by now. Cryptographically, there can never be more than these 1000 original CryptoOctos.
 
-At the Marketplace look at the Seller. Seller **0x41...fBE** is a newly minted NFT from the MultiSig Wallet (mostly the cheapest price).
+They were created in two ways:
+- Minted by the Community Multisig Wallet and sold on the Marketplace
+- Breeding of 2 existing CryptoOctos
 
-All the other sellers are private owners like you and me.
+The Community MultiSig Wallet was allowed to mint NFTs and put it on the marketplace in a statically calculated fair price that was dependent on the rarity of the NFT.
+
+The income was used in a decentralized manner to burn DUSD with 10% of the profit and with 90% support the development of the OctoDeFi Smart Wallet.
+
+Fund flow can be seen transparently on the Metachain: (link zur multisig wallet)

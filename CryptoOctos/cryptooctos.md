@@ -1,5 +1,5 @@
 ---
-icon: info
+icon: hubot
 tags: [cryptooctos, traits, nft]
 order: 1
 ---
@@ -10,11 +10,11 @@ This is a open source community project with no owner. Noone is liable for this 
 Be careful what you buy. NFTs can be sold by users at any price (even exorbitantly high prices).
 !!!
 
-# Basic Facts
+# CryptoOcto NFTs
 
-In total there are 1000 CryptoOcto NFTs. All CryptoOctos are created by now. Cryptographically, there can never be more than these 1000 original CryptoOctos.
+In total there are 1000 CryptoOcto NFTs. All CryptoOctos are created by now. Cryptographically, there can never be more than these 1000 original CryptoOctos. The NFT is not only rare and nice to look at like other NFTs, they offer numerous benefits that hold tangible financial value, like 200 DUSD for every Diamond Octo.
 
-They were created in two ways:
+CryptoOctos were created in two ways:
 - Minted by the Community Multisig Wallet and sold on the Marketplace
 - Breeding of 2 existing CryptoOctos
 

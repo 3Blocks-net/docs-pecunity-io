@@ -1,5 +1,5 @@
 ---
-icon: info
+icon: book
 tags: [cryptooctos, history, octos]
 order: 1
 ---

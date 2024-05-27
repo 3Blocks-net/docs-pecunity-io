@@ -31,4 +31,3 @@ Bronze
 Classic
 :   - 50 free transactions
     - Stake and receive 1x OctoTokens
-===

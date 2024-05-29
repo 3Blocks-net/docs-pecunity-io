@@ -1,6 +1,7 @@
 ---
 icon: goal
 tags: [cryptooctos, benefits, nft]
+order: 97
 ---
 # Benefits
 

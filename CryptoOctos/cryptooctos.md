@@ -12,14 +12,18 @@ Be careful what you buy. NFTs can be sold by users at any price (even exorbitant
 
 # CryptoOcto NFTs
 
-In total there are 1000 CryptoOcto NFTs. All CryptoOctos are created by now. Cryptographically, there can never be more than these 1000 original CryptoOctos. The NFT is not only rare and nice to look at like other NFTs, they offer numerous benefits that hold tangible financial value, like 200 DUSD for every Diamond Octo.
+The CryptoOctos are a finite set of 1000 Non-Fungible Tokens (NFTs). The creation of these unique NFTs has been completed, and due to cryptographic constraints, the number of this collection cannot exceed the limit of 1000.
 
-CryptoOctos were created in two ways:
-- Minted by the Community Multisig Wallet and sold on the Marketplace
-- Breeding of 2 existing CryptoOctos
+These NFTs are not merely aesthetically pleasing akin to other NFTs. They confer a multitude of [Benefits](https://nft.octodefi.com/benefits) that possess concrete financial worth, such as an allocation of 200 DUSD for every Diamond Octo.
 
-The Community MultiSig Wallet was allowed to mint NFTs and put it on the marketplace in a statically calculated fair price that was dependent on the rarity of the NFT.
+The distribution of CryptoOctos was executed via three distinct methods:
 
-The income was used in a decentralized manner to burn DUSD with 10% of the profit and with 90% support the development of the OctoDeFi Smart Wallet.
+- Initial offerings on the Marketplace
+- Airdrops for proactive community participants
+- Generation of new CryptoOctos through the breeding of two existing CryptoOctos (until the total count reached 1000)
 
-Fund flow can be seen transparently on the Metachain: (link zur multisig wallet)
+The Community MultiSig Wallet was granted permission to initially introduce NFTs onto the marketplace at a fairly computed equitable price, contingent on the rarity of the NFT.
+
+The revenue generated from the marketplace offering was allocated to burn DUSD, with 10% of the profit, and with 90% to enable the development of the OctoDeFi DAO.
+
+The flow of funds can be transparently observed onchain. TODO link

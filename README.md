@@ -13,5 +13,5 @@ OctoDeFi is not just a platform; it’s an open-source community project that th
 
 Our repositories are readily accessible here:  [Daocean Labs](https://github.com/daocean-labs)
 
-By delving into this documentation, you will gain a robust understanding of the OctoDeFi ecosystem and its offerings. Whether you’re a seasoned crypto enthusiast or a newcomer to the blockchain world, this documentation serves as a valuable resource to navigate the OctoDeFi platform effectively.
+By delving into this documentation, you will gain a robust understanding of the OctoDeFi ecosystem and its offerings. Whether you’re a experienced crypto enthusiast or a newcomer to the blockchain world, this documentation serves as a valuable resource to navigate the OctoDeFi platform effectively.
 

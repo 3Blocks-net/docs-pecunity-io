@@ -4,10 +4,12 @@ tags: [smart wallet, smartwallet, octo wallet, octodefi wallet]
 ---
 # Swap Page
 
-On the swap page users are able to swap between tokens. The wallet is using well-known swap pages for each chain.
+On the swap page, users have the ability to easily make swaps. The wallet utilizes reputable DEXs from multiple blockchain networks to achieve this.
 
-Users can swap between different chains.
+You can swap cross-chain, that means you can swap between tokens from different blockchain networks.
 
-Users can swap without paying gas fees depending on the NFT they have.
 
-Users can swap on the cheapest DEX available and thus make the most cost efficient trade.
+Users can execute trades without gas fees. (if they own CryptoOcto NFTs)
+
+With the "best price finder" users can conduct trades on the most affordable Decentralized Exchange (DEX) available, thereby ensuring the most cost-effective transaction. This feature enhances the user’s trading experience by maximizing efficiency and minimizing costs.
+

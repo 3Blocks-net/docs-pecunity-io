@@ -4,10 +4,18 @@ tags: [strategy, builder, octo, octodefi, strategies]
 ---
 # Strategy Builder
 
-On our swap page, you can exchange different types of tokens. Our wallet connects to popular swap services for each type of blockchain.
+As written in [What is DeFi?](defi.md) Strategies are one possibility to maximize the profits from using DeFi by combining different DeFi products.
 
-You can also trade tokens between different blockchains.
+With the Octo Wallet, you have the capability to employ the best DeFi strategies out there.
 
-If you own certain NFTs, you can swap tokens without paying any extra fees.
+## Create a Strategy
 
-Plus, our system helps you find the cheapest place to swap tokens, so you can save money on every trade.
+In the Strategy Builder UI you can create your own strategy to use it. You can also sell your created Strategy at the Strategy Marketplace.
+
+TODO: Explaination with images how to create a Strategy.
+
+## Buy a Strategy
+
+## Customize a Strategy
+
+## Sell a Strategy

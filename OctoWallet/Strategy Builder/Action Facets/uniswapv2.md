@@ -91,18 +91,6 @@ In a strategy aiming to quickly capitalize on price movements, add a step to zap
 UniswapV2Facet.zap(tokenA, tokenB, amountIn);
 ```
 
-### 5. **Retrieving Router Information**
-
-To ensure compatibility and address usage in strategies, `uniswapV2Router` provides the Uniswap V2 router address.
-
-#### Example Usage in Strategy
-
-In complex strategies requiring access to multiple Uniswap functionalities or chain integrations, retrieving the router address can facilitate compatibility checks or further protocol interactions.
-
-```solidity
-address router = UniswapV2Facet.uniswapV2Router();
-```
-
 ---
 
 ## Implementing UniswapV2Facet in StrategyBuilder

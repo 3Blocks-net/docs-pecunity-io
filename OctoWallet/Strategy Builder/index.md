@@ -17,7 +17,7 @@ Using `StrategyBuilder`, users can create strategies, each containing steps that
 
 ### 2. **Automating Strategy Execution**
 
-The library also allows strategies to be automated through external triggers. Automations enable strategies to run when specific conditions are met, enabling flexibility and external control over execution flow.
+The contract also allows strategies to be automated through external triggers. Automations enable strategies to run when specific conditions are met, enabling flexibility and external control over execution flow.
 
 ## Building a Strategy
 
@@ -118,7 +118,7 @@ To trigger strategy execution based on external conditions:
    StrategyBuilder.executeAutomation(automationId);
    ```
 
-## Strategy Builder Library API
+## Strategy Builder API
 
 ### Strategy Management
 

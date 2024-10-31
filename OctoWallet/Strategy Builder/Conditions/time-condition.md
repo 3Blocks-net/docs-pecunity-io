@@ -1,5 +1,5 @@
 ---
-icon: icon-clock
+icon: clock
 tags:
   [
     smart wallet,

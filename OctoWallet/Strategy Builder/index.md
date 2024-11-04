@@ -5,13 +5,15 @@ tags: [strategy, builder, octo, octodefi, strategies]
 
 # Strategy Builder
 
+The **`StrategyBuilder` contract** is a smart contract component, structured as a facet following the **Diamond Standard** (EIP-2535). This modular design allows a smart contract wallet to integrate the `StrategyBuilder` as a facet, thus inheriting and utilizing all its functionalities. Here’s an explanation of its features and how it fits into the overall architecture:
+
 ## Overview
 
 The `StrategyBuilder` contract leverages the `StrategyBuilderLib` library to manage and execute complex, automated strategies with multiple steps, conditions, and actions. This contract provides a straightforward interface for defining and controlling strategies, as well as automating their execution based on external conditions.
 
 ## Core Concepts
 
-### 1. **Creating a Strategy and Executing It**
+### 1. **Creating a Strategy**
 
 Using `StrategyBuilder`, users can create strategies, each containing steps that specify conditions and actions to be executed. Strategies can be executed step-by-step, with each step following a predefined flow based on condition evaluations.
 
@@ -75,7 +77,7 @@ step1.actions[0] = action1; // Add action to the step
 
 ### Step 4: Add Strategy to Storage
 
-Once the steps are defined, create a new strategy and add it to storage using the `addStrategy` function. Each strategy is associated with an ID and a creator's address.
+Once the steps are defined, create a new strategy and add it to storage using the `addStrategy` function in the smart contract wallet. Each strategy is associated with an ID and a creator's address.
 
 Example:
 
@@ -83,17 +85,17 @@ Example:
 StrategyBuilderLib.StrategyStep[] memory steps = new StrategyBuilderLib.StrategyStep[](1);
 steps[0] = step1;
 
-StrategyBuilder.addStrategy(strategyId, creatorAddress, steps);
+wallet.addStrategy(strategyId, creatorAddress, steps);
 ```
 
 ### Step 5: Execute the Strategy
 
-To execute the strategy, call the `executeStrategy` function, which will process each step sequentially based on the specified conditions and actions.
+To execute the strategy, call the `executeStrategy` function in the smart contract wallet, which will process each step sequentially based on the specified conditions and actions.
 
 Example:
 
 ```solidity
-StrategyBuilder.executeStrategy(strategyId);
+wallet.executeStrategy(strategyId);
 ```
 
 ### Automate Strategy Execution with Conditions
@@ -110,12 +112,12 @@ To trigger strategy execution based on external conditions:
        result0: 0  // Stop if false
    });
 
-   StrategyBuilder.activateAutomation(automationId, strategyId, autoCondition);
+   wallet.activateAutomation(automationId, strategyId, autoCondition);
    ```
 
-2. **Execute Automation** when the condition is met:
+2. **Execute Automation** when the condition is met (You can invoke the `executeAutomation` function without needing direct access to the wallet):
    ```solidity
-   StrategyBuilder.executeAutomation(automationId);
+   wallet.executeAutomation(automationId);
    ```
 
 ## Strategy Builder API
@@ -157,29 +159,5 @@ To trigger strategy execution based on external conditions:
   ```solidity
   function executeAutomation(uint16 id) internal;
   ```
-
-## Example Usage
-
-### Define and Execute a Simple Strategy
-
-1. **Create a strategy** with steps, conditions, and actions:
-   ```solidity
-   StrategyBuilder.addStrategy(strategyId, creatorAddress, strategySteps);
-   ```
-2. **Execute the strategy** to process its steps:
-   ```solidity
-   StrategyBuilder.executeStrategy(strategyId);
-   ```
-
-### Automate Strategy Execution Based on Conditions
-
-1. **Activate automation** for a strategy with a specific condition:
-   ```solidity
-   StrategyBuilder.activateAutomation(automationId, strategyId, autoCondition);
-   ```
-2. **Execute automation** to trigger the strategy if the condition is met:
-   ```solidity
-   StrategyBuilder.executeAutomation(automationId);
-   ```
 
 This contract enables the creation of complex automated workflows that integrate with external triggers and conditions, making it suitable for applications like decentralized finance (DeFi) and automated contract management.

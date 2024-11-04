@@ -27,7 +27,7 @@ With `UniswapV2Facet` in `StrategyBuilder`, users can integrate various token sw
 
 The integration of `UniswapV2Facet` into the **StrategyBuilder** enhances the capability to manage asset portfolios dynamically, providing users with powerful tools for liquidity management, trading, and automated DeFi strategies.
 
-## Using UniswapV2Facet in StrategyBuilder
+## Using UniswapV2Facet
 
 The **UniswapV2Facet** provides flexibility in building complex strategies for DeFi operations, particularly for asset swapping and liquidity pool interactions. Here’s how each type of function can be implemented as steps in a strategy:
 

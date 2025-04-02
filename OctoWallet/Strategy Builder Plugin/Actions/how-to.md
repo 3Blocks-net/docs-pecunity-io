@@ -3,6 +3,4 @@ icon: issue-reopened
 tags: [smart wallet, smartwallet, octo wallet, octodefi wallet, action contract]
 ---
 
-# Actions
-
-## Overview
+# How to create a action contract

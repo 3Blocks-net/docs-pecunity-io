@@ -3,7 +3,7 @@ icon: repo-forked
 tags: [strategy, builder, octo, octodefi, strategies]
 ---
 
-# StrategyBuilderPlugin - ERC6900 Standard
+# Strategy Builder Plugin
 
 ## Overview
 

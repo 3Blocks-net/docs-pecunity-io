@@ -2,7 +2,8 @@
 icon: credit-card
 tags: [smart wallet, smartwallet, octo wallet, octodefi wallet]
 ---
-# Octo SmartWallet
+
+# Octo Wallet
 
 The core product of OctoDeFi is the Octo Wallet. It makes DeFi (decentralized finance) easy for beginners and for experts.
 

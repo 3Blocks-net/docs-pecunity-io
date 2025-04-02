@@ -2,17 +2,12 @@
 icon: git-branch
 tags: [blockchains, networks, multichain, crosschain, octo]
 ---
+
 # Networks
 
 Supported Networks:
-- **DeFiChain Metachain** - This network is the primary focus of the project, as the platform token $OCTO is launched here.
 
 - **Arbitrum** - A second-layer network built on top of Ethereum, known for its low fees.
-
-Testnet Networks:
-- **DeFiChain Testnet3 Metachain**
-
-- **Arbitrum Sepolia**
 
 ## What are networks?
 
@@ -27,5 +22,3 @@ Each network requires a separate wallet. In the case of Metamask, switching betw
 OctoWallet is a multifaceted platform that supports multiple networks and enables the smooth transfer of funds between these networks.
 
 With OctoWallet, you can manage funds across all supported chains. It is crucial to remember that funds from unsupported networks should not be sent to your OctoWallet, as they will be inaccessible. This platform simplifies the management of digital assets across various blockchain networks.
-
-

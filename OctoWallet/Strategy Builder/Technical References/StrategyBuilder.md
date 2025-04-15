@@ -1,5 +1,5 @@
 ---
-icon: repo-forked
+icon: package
 tags: [strategy, builder, octo, octodefi, strategies]
 order: 2
 ---

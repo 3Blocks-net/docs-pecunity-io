@@ -1,7 +1,7 @@
 ---
-icon: build
+icon: tools
 tags: [smart wallet, smartwallet, octo wallet, octodefi wallet, build contracts]
-order: 5
+order: 5bui
 ---
 
 ## 🛠️ Build

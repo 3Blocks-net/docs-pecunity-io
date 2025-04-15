@@ -1,5 +1,5 @@
 ---
-icon: checklist
+icon: repo
 tags:
   [smart wallet, smartwallet, octo wallet, octodefi wallet, deployed contracts]
 order: 7

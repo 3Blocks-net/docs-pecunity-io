@@ -1,5 +1,5 @@
 ---
-icon: repo-forked
+icon: device-desktop
 tags: [strategy, builder, octo, octodefi, strategies]
 order: 1
 ---

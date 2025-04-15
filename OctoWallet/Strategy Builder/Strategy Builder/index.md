@@ -1,7 +1,7 @@
 ---
 icon: device-desktop
 tags: [strategy, builder, octo, octodefi, strategies]
-order: 1
+order: 100
 ---
 
 # Strategy Builder Guide

@@ -2,7 +2,7 @@
 icon: repo
 tags:
   [smart wallet, smartwallet, octo wallet, octodefi wallet, deployed contracts]
-order: 7
+order: 1
 ---
 
 # Deployed Core Contracts

@@ -1,6 +1,7 @@
 ---
 icon: repo-forked
 tags: [strategy, builder, octo, octodefi, strategies]
+order: 2
 ---
 
 # Strategy Builder Plugin

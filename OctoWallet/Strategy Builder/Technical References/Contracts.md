@@ -2,6 +2,7 @@
 icon: checklist
 tags:
   [smart wallet, smartwallet, octo wallet, octodefi wallet, deployed contracts]
+order: 7
 ---
 
 # Deployed Core Contracts
@@ -13,6 +14,6 @@ tags:
 | FeeHandler              | `0xe51696bd5A6677C42556A26005bF13DED45CD1D6` |
 | FeeCoontroller          | `0x68E26A3B3A1695f39D07a23104fc59127f0aa31f` |
 
-# Deployed Action Contracts
+<!-- # Deployed Action Contracts
 
-# Deplloyed Condition Contracts
+# Deplloyed Condition Contracts -->

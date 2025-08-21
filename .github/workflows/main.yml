@@ -6,18 +6,19 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: daocean-labs/docs.octodefi.com:latest
+  IMAGE_NAME: 3blocks-net/docs.pecunity.io:latest
 
 jobs:
   publish:
     name: publish image
     runs-on: ubuntu-latest
+    environment: production
 
     steps:
       - uses: actions/checkout@v3
       - name: Login
         run: |
-          echo ${{ secrets.PAT }} | docker login ghcr.io -u octodefi --password-stdin
+          echo ${{ secrets.PAT }} | docker login ghcr.io -u 3blocks-ci --password-stdin
       - name: Build and Publish
         run: |
           docker build . --tag ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}

@@ -6,7 +6,7 @@ order: 5
 
 ## 🛠️ Build
 
-You can build **custom action or condition contracts** for use with the **Strategy Builder Plugin** by [Octo DeFi](https://octo.fi).
+You can build **custom action or condition contracts** for use with the **Strategy Builder Plugin**.
 
 ### 🧱 Getting Started
 

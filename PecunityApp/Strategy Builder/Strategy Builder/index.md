@@ -1,6 +1,6 @@
 ---
 icon: device-desktop
-tags: [strategy, builder, octo, octodefi, strategies]
+tags: [strategy, builder, pecunity, strategies]
 order: 100
 ---
 

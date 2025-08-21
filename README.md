@@ -3,15 +3,16 @@ label: "Overview"
 icon: home
 ---
 
-# OctoDeFi Documentation
+# Pecunity Docs - Next generation passive income
+**Effortlessly earn yields by uniting the best crypto protocols across chains with automated community-driven strategies.**
 
-This comprehensive documentation is designed to provide you with a thorough understanding of all products under the OctoDeFi umbrella!
+This comprehensive documentation is designed to provide you with a thorough understanding of all products under the Pecunity umbrella, especially the Pecunity App.
 
-It encompasses a detailed overview of the CryptoOcto Non-Fungible Tokens (NFTs), the proprietary $OCTO token, the decentralized autonomous organization known as Octo DAO, and most importantly, the OctoWallet with its extensive array of features.
+It encompasses a detailed overview of the Collectibles like "OctoNFT" and "Community Chest", the $PECsp token, the $PEC token and the Pecunity Academy.
 
-OctoDeFi is not just a platform; it’s an open-source community project that thrives on the contributions of its users. We encourage active participation and welcome any contributions that can enhance the quality of this documentation, bolster our marketing efforts, or aid in the development of our platform.
+We encourage active participation and welcome any contributions that can enhance the quality of this documentation, bolster the Pecunity marketing efforts, or aid in the development of Pecunity App. Please reach out to us through our socials.
 
-Our repositories are readily accessible here:  [Daocean Labs](https://github.com/daocean-labs)
+Our repositories are readily accessible here:  [Github](https://github.com/3Blocks-net)
 
-By delving into this documentation, you will gain a robust understanding of the OctoDeFi ecosystem and its offerings. Whether you’re a experienced crypto enthusiast or a newcomer to the blockchain world, this documentation serves as a valuable resource to navigate the OctoDeFi platform effectively.
+This documentation will help you build a clear understanding of Pecunity and how it can benefit you.
 

@@ -1,6 +1,6 @@
 ---
 icon: play
-tags: [smart wallet, smartwallet, octo wallet, octodefi wallet, action contract]
+tags: [smart wallet, smartwallet, pecunity, action contract]
 order: 10
 ---
 

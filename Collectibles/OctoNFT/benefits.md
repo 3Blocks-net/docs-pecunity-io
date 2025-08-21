@@ -1,6 +1,6 @@
 ---
 icon: goal
-tags: [cryptooctos, benefits, nft]
+tags: [cryptooctos, octonfts, octonft, benefits, nft]
 order: 97
 ---
 # Benefits
@@ -11,24 +11,24 @@ Diamond
     - 50% lower fees
     - Exclusive club membership
     - Early Access
-    - Stake and receive 20x OctoTokens
+    - Stake and receive 20x $PEC
 
 Gold
 :   - 800 free transactions
     - 50% lower fees
     - Exclusive club membership
     - Early Access
-    - Stake and receive 10x OctoTokens
+    - Stake and receive 10x $PEC
 
 Silver
 :   - 400 free transactions
     - Early Access
-    - Stake and receive 5x OctoTokens
+    - Stake and receive 5x $PEC
 
 Bronze
 :   - 200 free transactions
-    - Stake and receive 2x OctoTokens
+    - Stake and receive 2x $PEC
 
 Classic
 :   - 50 free transactions
-    - Stake and receive 1x OctoTokens
+    - Stake and receive 1x $PEC

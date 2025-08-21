@@ -1,11 +1,11 @@
 ---
 icon: sliders
-tags: [cryptooctos, traits, nft]
+tags: [cryptooctos, octonfts, octonft, traits, nft]
 order: 98
 ---
 # Traits
 
-Every NFT has 7 Trait Categories with different Traits in it.
+Every OctoNFT has 7 Trait Categories with different Traits in it.
 
 ||| Background
 - comflower blue

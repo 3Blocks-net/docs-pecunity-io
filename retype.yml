@@ -17,22 +17,37 @@ toc:
 
 # New Hub link feature, but not used on retype.com
 # hub:
-  # link: https://example.com/
-  # alt: Go to example.com
-  # target: _blank
+# link: https://example.com/
+# alt: Go to example.com
+# target: _blank
 
 # Start in "Pro Mode" trial
 start:
   pro: true
 
-
 # -------------------
 # Retype
 # -------------------
 
-input: ./
+input: ./docs
 output: .retype
 url: docs.pecunity.io
+
+navigation:
+  - label: General
+    items:
+      - what_is_pecunity.md
+      - Accounts.md
+      - Security.md
+      - Fee_Structure.md
+      - Roadmap.md
+
+  - label: Features
+    items:
+      - Swap.md
+      - Community_Chest.md
+      - Marketplace.md
+      - Strategies.md
 
 branding:
   title: Pecunity

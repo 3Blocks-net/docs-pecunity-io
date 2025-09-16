@@ -4,7 +4,7 @@ icon: home
 order: 100
 ---
 
-![Pecunity](../static/pecunity_banner.png)
+![](../static/pecunity_banner.png)
 
 # Pecunity Docs - Next generation passive income
 

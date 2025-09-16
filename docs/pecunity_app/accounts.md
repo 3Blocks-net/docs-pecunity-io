@@ -17,7 +17,7 @@ Pecunity makes it simple to create and manage your Web3 account.
 - **Passkeys**  
   Create a passkey for quick and secure future logins without needing a password.
 
-![Sign in screen](../../static/login.png)
+![Sign in screen](../static/login.png)
 
 ---
 

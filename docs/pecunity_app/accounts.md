@@ -1,10 +1,8 @@
 ---
 title: Accounts
-icon: icon-person
+icon: person
 order: 97
 ---
-
-# Accounts
 
 Pecunity makes it simple to create and manage your Web3 account.
 

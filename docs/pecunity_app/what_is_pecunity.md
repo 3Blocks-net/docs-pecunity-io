@@ -5,8 +5,6 @@ tags: [smart wallet, smartwallet, pecunity app, pecunity]
 order: 98
 ---
 
-# What is Pecunity?
-
 Pecunity is a **web app that makes Web3 simple**.  
 With Pecunity, you can easily create an account using **social login**, while the security and ownership are handled by **smart account contracts**.
 

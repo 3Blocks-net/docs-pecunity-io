@@ -2,7 +2,7 @@
 title: What is Pecunity?
 icon: question
 tags: [smart wallet, smartwallet, pecunity app, pecunity]
-order: 2
+order: 98
 ---
 
 # What is Pecunity?

@@ -1,10 +1,10 @@
 ---
 label: "Overview"
 icon: home
-order: 1
+order: 100
 ---
 
-![Pecunity](../static/pecunity_banner.webp)
+![Pecunity](../static/pecunity_banner.png)
 
 # Pecunity Docs - Next generation passive income
 

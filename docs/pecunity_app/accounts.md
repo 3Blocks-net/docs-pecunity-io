@@ -1,7 +1,7 @@
 ---
 title: Accounts
 icon: icon-person
-order: 2
+order: 3
 ---
 
 # Accounts

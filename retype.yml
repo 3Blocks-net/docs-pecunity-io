@@ -33,22 +33,6 @@ input: ./docs
 output: .retype
 url: docs.pecunity.io
 
-navigation:
-  - label: General
-    items:
-      - what_is_pecunity.md
-      - Accounts.md
-      - Security.md
-      - Fee_Structure.md
-      - Roadmap.md
-
-  - label: Features
-    items:
-      - Swap.md
-      - Community_Chest.md
-      - Marketplace.md
-      - Strategies.md
-
 branding:
   title: Pecunity
   logo: /static/pecunity_logomark.svg

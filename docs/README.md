@@ -12,7 +12,7 @@ order: 100
 
 This comprehensive documentation is designed to provide you with a thorough understanding of all products under the Pecunity umbrella, especially the Pecunity App.
 
-It encompasses a detailed overview of the Collectibles like "OctoNFT" and "Community Chest", the $PECsp token, the $PEC token and the Pecunity Academy.
+It encompasses a detailed overview of the Collectibles like "Community Chest", the $PECsp token, the $PEC token and the Pecunity Academy.
 
 We encourage active participation and welcome any contributions that can enhance the quality of this documentation, bolster the Pecunity marketing efforts, or aid in the development of Pecunity App. Please reach out to us through our socials.
 

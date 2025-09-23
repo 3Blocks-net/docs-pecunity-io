@@ -59,10 +59,12 @@ In addition to type, strategies differ in their risk profiles:
 | Strategy Name                        | Description                                                                                                                                                                                                                                                                                  | Est. APY | Risk   |
 | ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------ |
 | **USD Yield Booster**                | Uses the decentralized perpetual exchange GMX on Arbitrum and Avalanche to provide liquidity with USDC and generate returns. ETH price risk is neutralized through hedging on Aave. Designed to achieve a delta-neutral yield primarily from trading fees, liquidations, and borrowing fees. | 18–21%   | Medium |
-| **Leverage-Yield with sUSDE**        | Combines stablecoin lending with leverage on Aave. The goal is to boost sUSDE yields by reusing collateral multiple times. Investors benefit from a compounding effect without having to add capital manually.                                                                               | 32–35%   | High   |
+| **Leverage-Yield with sUSDE**        | Combines stablecoin lending with leverage on Aave. The goal is to boost sUSDE yields by reusing collateral multiple times. Investors benefit from a compounding effect without having to add capital manually.                                                                               | 22%      | Medium |
 | **Liquidity Provision with Hedging** | Combines liquidity provision (LP) on Uniswap V3 with a hedging mechanism via perpetuals (e.g., on GMX, dYdX, or Perpetual Protocol). Designed to earn trading fees from LPing while mitigating impermanent loss with a hedge position.                                                       | 22–28%   | Medium |
 
 Additional strategies will be continuously made available, allowing users to select the ones that best match their **risk profile** and **yield expectations** across selected tokens.
+
+[!ref Leverage-Yield Strategy with sUSDE on Aave](/strategy_products/leveraged_yield_strategy_sUSDE.md)
 
 ---
 

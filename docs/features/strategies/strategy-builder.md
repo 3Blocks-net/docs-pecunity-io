@@ -1,7 +1,7 @@
 ---
 title: Strategy Builder
 icon: tools
-order: 92
+order: 36
 ---
 
 The **Strategy Builder** is the tool that allows you to create your own strategies and publish them if you wish.  

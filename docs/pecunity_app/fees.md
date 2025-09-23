@@ -39,6 +39,18 @@ If the total fee is paid with other tokens, it is distributed as follows:
 - **20%** to the Automation Server
 - **30%** to the Development Company
 
+## PEC Discounts & Locking Benefits
+
+When paying fees with the **PEC token**, the overall fee is reduced.  
+Additionally, you can **lock PEC** to receive an extra discount on top.
+
+This means:
+
+- Paying with PEC is always cheaper than paying with other tokens.
+- Locking PEC provides even greater savings.
+- The utility token is strengthened within the ecosystem.
+- **No user is forced** to buy PEC — it remains an optional benefit.
+
 # Action Fees
 
 Each action has a type and a corresponding **minimum fee** that must be paid, regardless of the percentage fee.

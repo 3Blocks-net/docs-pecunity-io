@@ -7,6 +7,8 @@ order: 36
 The **Strategy Builder** is the tool that allows you to create your own strategies and publish them if you wish.  
 Using **drag & drop**, you can move and connect components. By linking these components together, a full strategy is built.
 
+![Create strategies via drag&drop](../../static/strategy_builder.png)
+
 When building a strategy, there are two main types of components:
 
 ---

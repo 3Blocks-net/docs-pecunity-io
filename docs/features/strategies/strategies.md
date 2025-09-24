@@ -56,15 +56,19 @@ In addition to type, strategies differ in their risk profiles:
 
 ## Example Strategies Available at Launch
 
-| Strategy Name                        | Description                                                                                                                                                                                                                                                                                  | Est. APY | Risk   |
-| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------ |
-| **USD Yield Booster**                | Uses the decentralized perpetual exchange GMX on Arbitrum and Avalanche to provide liquidity with USDC and generate returns. ETH price risk is neutralized through hedging on Aave. Designed to achieve a delta-neutral yield primarily from trading fees, liquidations, and borrowing fees. | 18–21%   | Medium |
-| **Leverage-Yield with sUSDE**        | Combines stablecoin lending with leverage on Aave. The goal is to boost sUSDE yields by reusing collateral multiple times. Investors benefit from a compounding effect without having to add capital manually.                                                                               | 22%      | Medium |
-| **Liquidity Provision with Hedging** | Combines liquidity provision (LP) on Uniswap V3 with a hedging mechanism via perpetuals (e.g., on GMX, dYdX, or Perpetual Protocol). Designed to earn trading fees from LPing while mitigating impermanent loss with a hedge position.                                                       | 22–28%   | Medium |
+| Strategy Name                            | Description                                                                                                                                                                                                                                                                                  | Est. APY | Risk   |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------ |
+| **USD Yield Booster**                    | Uses the decentralized perpetual exchange GMX on Arbitrum and Avalanche to provide liquidity with USDC and generate returns. ETH price risk is neutralized through hedging on Aave. Designed to achieve a delta-neutral yield primarily from trading fees, liquidations, and borrowing fees. | 18–21%   | Medium |
+| **Leverage-Yield with sUSDE**            | Combines stablecoin lending with leverage on Aave. The goal is to boost sUSDE yields by reusing collateral multiple times. Investors benefit from a compounding effect without having to add capital manually.                                                                               | 22%      | Medium |
+| **Leverage-Yield with sUSDE (_E-Mode_)** | Combines stablecoin lending with leverage on Aave with active E-Mode. The goal is to boost sUSDE yields by reusing collateral multiple times. Investors benefit from a compounding effect without having to add capital manually.                                                            | 55%      | High   |
+| **Liquidity Provision with Hedging**     | Combines liquidity provision (LP) on Uniswap V3 with a hedging mechanism via perpetuals (e.g., on GMX, dYdX, or Perpetual Protocol). Designed to earn trading fees from LPing while mitigating impermanent loss with a hedge position.                                                       | 22–28%   | Medium |
+| **ETH-Backed Leveraged LP Strategy**     | This strategy has a LONG exposure on ETH and use ETH as collateral on Aave V3 to borrow stablecoins, which are paired with ETH in a concentrated Uniswap V3 liquidity pool.                                                                                                                  | 20%      | Medium |
 
 Additional strategies will be continuously made available, allowing users to select the ones that best match their **risk profile** and **yield expectations** across selected tokens.
 
-[!ref Leverage-Yield Strategy with sUSDE on Aave](/strategy_products/leveraged_yield_strategy_sUSDE.md)
+[!ref Leverage-Yield Strategy with sUSDE on Aave](./strategy_products/leveraged_yield_strategy_sUSDE.md)
+
+[!ref ETH-Backed Leveraged LP Strategy](./strategy_products/eth_backed_leveraged_lp.md)
 
 ---
 
@@ -74,6 +78,6 @@ Each strategy execution incurs a fee, based on the transaction volume.
 The utility token **$PEC** directly benefits from these fees:
 
 - If fees are paid in tokens such as **USDT** or **USDC**, a portion is converted into **$PEC** and then **burned**.
-- If fees are paid directly in **$PEC**, the fee is lower, but a small portion is still burned.
+- If fees are paid directly in **$PEC**, the fee is lower , but a small portion is still burned.
 
 This ensures that with every strategy execution, the **value and scarcity of $PEC** are continuously supported in the long term.

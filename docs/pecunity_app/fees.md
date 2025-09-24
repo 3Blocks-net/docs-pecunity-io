@@ -25,23 +25,23 @@ The **total fee** for a strategy is the sum of the fees for each individual acti
 
 If the total fee is paid in PEC, it is distributed as follows:
 
-- **25%** burned
-- **15%** to the Strategy Creator
-- **20%** to the Automation Server
-- **40%** to the Development Company
+- **40%** burned
+- **12,5%** to the Strategy Creator
+- **27,5%** to the Automation Server
+- **20%** to the Treasury
 
 ### Payment with Other Tokens
 
 If the total fee is paid with other tokens, it is distributed as follows:
 
 - **35%** burned in the form of $PEC
-- **15%** to the Strategy Creator
-- **20%** to the Automation Server
-- **30%** to the Development Company
+- **12,5%** to the Strategy Creator
+- **27,5%** to the Automation Server
+- **10%** to the Treasury
 
 ## PEC Discounts & Locking Benefits
 
-When paying fees with the **PEC token**, the overall fee is reduced.  
+When paying fees with the **PEC token**, the overall fee is reduced by 20%.  
 Additionally, you can **lock PEC** to receive an extra discount on top.
 
 This means:

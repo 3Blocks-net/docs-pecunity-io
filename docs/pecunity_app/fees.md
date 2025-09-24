@@ -55,11 +55,13 @@ This means:
 
 Each action has a type and a corresponding **minimum fee** that must be paid, regardless of the percentage fee.
 
-| Action                                | Type     | Fee  | Minimum Fee |
-| ------------------------------------- | -------- | ---- | ----------- |
-| Swap                                  | Deposit  | 0.3% | $0.40       |
-| Supply MoneyMarket                    | Deposit  | 0.1% | $0.40       |
-| Withdraw MoneyMarket                  | Withdraw | 0.2% | $0.70       |
-| Provide Liquidity                     | Deposit  | 0.1% | $0.40       |
-| Decrease Liquidity                    | Withdraw | 0.1% | $0.70       |
-| Collect Fees from Providing Liquidity | Reward   | 10%  | $1.00       |
+| Action                                | Type     | Fee   | Minimum Fee |
+| ------------------------------------- | -------- | ----- | ----------- |
+| Swap                                  | Deposit  | 0.3%  | $0.40       |
+| Supply MoneyMarket                    | Deposit  | 1.0%  | $0.40       |
+| Withdraw MoneyMarket                  | Withdraw | 1.0%  | $0.70       |
+| Borrow MoneyMarket                    | Deposit  | 1.0%  | $0.40       |
+| Repay MoneyMarket                     | Withdraw | 1.0%  | $0.70       |
+| Provide Liquidity                     | Deposit  | 0.1%  | $0.40       |
+| Decrease Liquidity                    | Withdraw | 0.1%  | $0.70       |
+| Collect Fees from Providing Liquidity | Reward   | 15.0% | $1.00       |

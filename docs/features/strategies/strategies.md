@@ -12,6 +12,8 @@ They enable users to generate returns in the DeFi space. There are two ways to p
 
 Created strategies can also be published by the community and made available to other users.
 
+![Users can choose from published strategies](../../static/strategies.png)
+
 ---
 
 ## Types of Strategies

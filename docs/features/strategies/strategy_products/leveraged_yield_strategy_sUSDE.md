@@ -9,6 +9,8 @@ This strategy leverages stablecoin lending and borrowing on Aave to amplify the 
 - **Target Audience**: Advanced DeFi users with lending and risk management experience
 - **Goal**: Build leverage on native sUSDE yield
 
+![Strategy flow](../../static/strategy_builder.png)
+
 ## Strategy Explanation
 
 ### Entry Steps

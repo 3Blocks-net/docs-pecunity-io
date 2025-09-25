@@ -2,14 +2,16 @@
 icon: issue-opened
 tags: [token, pec, coin]
 ---
-# Token - $PEC
+# $PEC Overview
 
-Pecunity issues a utility token designed for network participation and operational utility. Token holders can influence platform parameters and gain access to exclusive benefits (like fee reduction) within the Pecunity App.
+The Pecunity ecosystem is powered by the utility token **$PEC**.  
+It serves as the central element for participation, value transfer, and incentive alignment across all Pecunity features.  
 
-## Utility
-Utilities of the $PEC token:
-- **Governance** - Engage in the decision-making process by voting on proposals and setting key product parameters, such as fee structures.
-- **Exclusive Access** - Gain privileged entry to unique products and services, along with early opportunities to access highly advantageous offerings.
-- **Fee Payment** - Utilize the $PEC Token for transaction fees within the Pecunity App, bypassing the need for blockchain-specific tokens.
-- **Activity Rewards** - Active participants can earn you $PEC airdrops
-- **Token burn** - Implement specialized mechanisms that periodically reduce the token supply, thereby increasing its scarcity and potential value.
+$PEC connects users and the platform by linking activity with measurable benefits.  
+The token model is designed to be transparent, predictable, and fair: no private sales, no inflation, and clear allocation rules.  
+
+The primary objectives of $PEC are:  
+- Enable participation in Pecunity features and services  
+- Provide incentives for long-term community members and contributors  
+- Ensure sustainable demand through fee usage, locking, and rewards  
+- Maintain balance via a deflationary burn mechanism 

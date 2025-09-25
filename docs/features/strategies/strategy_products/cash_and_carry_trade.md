@@ -2,7 +2,7 @@
 
 ## Strategy Overview
 
-This strategy uses a total principal of $150,000 to create a delta-neutral position on the HYPE token with two key components:
+This strategy uses a delta-neutral position on the HYPE token with two key components:
 
 - **Long Position:** Invest $75,000 in a Pendle Principal Token (PT) for HYPE, representing a fixed yield of 12% APY. The PT token locks in yield on HYPE, providing a steady income stream.
 - **Short Position:** Open a leveraged short position on HYPE perpetual contracts with $25,000 capital at 3x leverage (equivalent to $75,000 exposure) on a decentralized perpetual futures exchange (Perp DEX). The short position offsets the long exposure, aiming to achieve delta-neutrality and capture a high funding rate of approximately 30% APR.

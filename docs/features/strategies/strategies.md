@@ -65,12 +65,15 @@ In addition to type, strategies differ in their risk profiles:
 | **Leverage-Yield with sUSDE (_E-Mode_)** | Combines stablecoin lending with leverage on Aave with active E-Mode. The goal is to boost sUSDE yields by reusing collateral multiple times. Investors benefit from a compounding effect without having to add capital manually.                                                            | 55%      | High   |
 | **Liquidity Provision with Hedging**     | Combines liquidity provision (LP) on Uniswap V3 with a hedging mechanism via perpetuals (e.g., on GMX, dYdX, or Perpetual Protocol). Designed to earn trading fees from LPing while mitigating impermanent loss with a hedge position.                                                       | 22–28%   | Medium |
 | **ETH-Backed Leveraged LP Strategy**     | This strategy has a LONG exposure on ETH and use ETH as collateral on Aave V3 to borrow stablecoins, which are paired with ETH in a concentrated Uniswap V3 liquidity pool.                                                                                                                  | 20%      | Medium |
+| **Cash-and-Carry Strategy**              | This strategy has a LONG exposure on ETH and use ETH as collateral on Aave V3 to borrow stablecoins, which are paired with ETH in a concentrated Uniswap V3 liquidity pool.                                                                                                                  | 31,5%    | High   |
 
 Additional strategies will be continuously made available, allowing users to select the ones that best match their **risk profile** and **yield expectations** across selected tokens.
 
 [!ref Leverage-Yield Strategy with sUSDE on Aave](./strategy_products/leveraged_yield_strategy_sUSDE.md)
 
 [!ref ETH-Backed Leveraged LP Strategy](./strategy_products/eth_backed_leveraged_lp.md)
+
+[!ref Cash-and-Carry Strategy](./strategy_products/cash_and_carry_trade.md)
 
 ---
 

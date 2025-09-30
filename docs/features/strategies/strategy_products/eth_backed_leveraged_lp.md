@@ -21,6 +21,8 @@ This strategy leverages ETH as collateral on AaveV3 to borrow stablecoins (e.g.,
    - Adjust the short position to precisely match the changing ETH exposure in the LP (hedge rebalancing).
    - Compound LP fees periodically back into the strategy.
 
+![Strategy flow](../../../static/eth-leveraged-lp-strategy.png)
+
 ## Automated Rebalancing Details
 
 - **LP Range Rebalancing:** Automated bots or tools (Krystal, Orphic, Gelato) move LP positions if the ETH price exits the ±15% band, ensuring consistent fee earning.

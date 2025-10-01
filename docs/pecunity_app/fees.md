@@ -34,7 +34,7 @@ If the total fee is paid in PEC, it is distributed as follows:
 
 If the total fee is paid with other tokens, it is distributed as follows:
 
-- **35%** burned in the form of $PEC
+- **50%** burned in the form of $PEC
 - **12,5%** to the Strategy Creator
 - **27,5%** to the Automation Server
 - **10%** to the Treasury

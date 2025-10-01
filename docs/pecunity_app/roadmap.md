@@ -4,4 +4,4 @@ icon: calendar
 order: 94
 ---
 
-![Strategy flow](../static/roadmap.png.png)
+![Planned roadmap](../static/roadmap.png)

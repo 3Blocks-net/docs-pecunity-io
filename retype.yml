@@ -32,10 +32,11 @@ url: docs.pecunity.io
 branding:
   logo: static/pecunity-logo.png
   logoDark: static/pecunity-logo-dark.png
-  label: Docs
 
 meta:
   title: " - Pecunity Documentation"
+
+favicon: static/favicon.ico
 
 generator:
   paths: root

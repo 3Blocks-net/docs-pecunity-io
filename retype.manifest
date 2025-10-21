@@ -1,6 +1,6 @@
 {
   "version": "3.11.0",
-  "created": "2025-10-21T09:19:09Z",
+  "created": "2025-10-21T09:26:59Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -10,6 +10,9 @@
     },
     {
       "path": "CNAME"
+    },
+    {
+      "path": "favicon.ico"
     },
     {
       "path": "features/easy_to_use/index.html"
@@ -298,6 +301,9 @@
     },
     {
       "path": "static/eth-leveraged-lp-strategy.png"
+    },
+    {
+      "path": "static/favicon.ico"
     },
     {
       "path": "static/login.png"

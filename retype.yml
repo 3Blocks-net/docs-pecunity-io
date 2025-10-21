@@ -11,10 +11,6 @@ outbound:
 breadcrumb:
   home: ":icon-home:"
 
-toc:
-  label: On this page
-  depth: 2-4
-
 # New Hub link feature, but not used on retype.com
 # hub:
 # link: https://example.com/
@@ -34,9 +30,8 @@ output: .retype
 url: docs.pecunity.io
 
 branding:
-  title: Pecunity
-  logo: /static/pecunity_logomark.svg
-  logoDark: /static/pecunity_logomark.svg
+  logo: static/pecunity-logo.png
+  logoDark: static/pecunity-logo-dark.png
   label: Docs
 
 meta:

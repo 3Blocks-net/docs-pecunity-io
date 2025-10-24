@@ -26,7 +26,7 @@ The **total fee** for a strategy is the sum of the fees for each individual acti
 If the total fee is paid in PEC, it is distributed as follows:
 
 - **40%** burned
-- **12,5%** to the Strategy Creator
+- **10%** to the Strategy Creator
 - **27,5%** to the Automation Server
 - **20%** to the Treasury
 
@@ -35,7 +35,7 @@ If the total fee is paid in PEC, it is distributed as follows:
 If the total fee is paid with other tokens, it is distributed as follows:
 
 - **50%** burned in the form of $PEC
-- **12,5%** to the Strategy Creator
+- **10%** to the Strategy Creator
 - **27,5%** to the Automation Server
 - **10%** to the Treasury
 

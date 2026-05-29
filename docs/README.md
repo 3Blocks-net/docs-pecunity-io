@@ -6,16 +6,54 @@ order: 100
 
 ![](/static/pecunity_banner.png)
 
-# Pecunity Docs - Next generation passive income
+# Welcome to Pecunity
 
-**Effortlessly earn yields by uniting the best crypto protocols across chains with automated community-driven strategies.**
+**Earn yields effortlessly by combining the best DeFi protocols with automated strategies.**
 
-This comprehensive documentation is designed to provide you with a thorough understanding of all products under the Pecunity umbrella, especially the Pecunity App.
+Pecunity is a web app that makes decentralized finance simple. Sign in with Google, Facebook, or your email, and start using DeFi strategies without needing to manage wallets, private keys, or gas fees.
 
-It encompasses a detailed overview of the Collectibles like "Community Chest", the $PECsp token, the $PEC token and the Pecunity Academy.
+---
 
-We encourage active participation and welcome any contributions that can enhance the quality of this documentation, bolster the Pecunity marketing efforts, or aid in the development of Pecunity App. Please reach out to us through our socials.
+![Your journey with Pecunity](/static/user-journey.svg)
 
-Our repositories are readily accessible here: [Github](https://github.com/3Blocks-net)
+## What you can do
 
-This documentation will help you build a clear understanding of Pecunity and how it can benefit you.
+- **Manage your portfolio** in one dashboard across multiple chains
+- **Use pre-built strategies** like Leveraged Yield Farming or Delta Neutral positions
+- **Earn rewards** through the loyalty program, referrals, and Community Chests
+- **Buy and sell crypto** directly with fiat currency
+- **Reduce fees** by holding and locking $PEC tokens
+
+---
+
+## Quick links
+
+||| Getting Started
+Create your account and make your first deposit.
+
+[!ref Create an Account](/getting-started/create-account/)
+|||
+
+||| Strategies
+Browse the strategy catalog and start earning yield.
+
+[!ref Explore Strategies](/strategies/overview/)
+|||
+
+||| $PEC Token
+Learn how $PEC reduces your fees and unlocks rewards.
+
+[!ref $PEC Overview](/pec-token/overview/)
+|||
+
+---
+
+## Built for everyone
+
+Whether you are new to crypto or an experienced DeFi user, Pecunity removes the technical complexity so you can focus on what matters: growing your portfolio.
+
+- **No private keys** to manage
+- **No gas fees** to worry about
+- **No KYC** required
+
+[!ref target="blank" text="Launch Pecunity App"](https://app.pecunity.io)

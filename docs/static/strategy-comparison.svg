@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" font-family="system-ui, sans-serif">
+  <defs>
+    <linearGradient id="scbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EEF1FB"/>
+      <stop offset="100%" stop-color="#DDE3F7"/>
+    </linearGradient>
+    <filter id="scs">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1A3FBA" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="260" rx="16" fill="url(#scbg)"/>
+  <text x="400" y="35" text-anchor="middle" fill="#1E2A4A" font-size="18" font-weight="700">Choose Your Strategy</text>
+
+  <!-- LYF -->
+  <rect x="20" y="55" width="245" height="190" rx="12" fill="white" filter="url(#scs)"/>
+  <rect x="20" y="55" width="245" height="45" rx="12" fill="#1A3FBA"/>
+  <rect x="20" y="85" width="245" height="15" fill="#1A3FBA"/>
+  <text x="142" y="82" text-anchor="middle" fill="white" font-size="15" font-weight="700">Leveraged Yield</text>
+  <text x="142" y="120" text-anchor="middle" fill="#1E2A4A" font-size="12">Borrow to amplify your</text>
+  <text x="142" y="136" text-anchor="middle" fill="#1E2A4A" font-size="12">liquidity position</text>
+  <line x1="40" y1="148" x2="245" y2="148" stroke="#EEF1FB" stroke-width="1"/>
+  <text x="50" y="170" fill="#6B7280" font-size="11">Risk:</text>
+  <text x="120" y="170" fill="#1A3FBA" font-size="11" font-weight="600">Medium-High</text>
+  <text x="50" y="190" fill="#6B7280" font-size="11">Min. deposit:</text>
+  <text x="140" y="190" fill="#1A3FBA" font-size="11" font-weight="600">$100</text>
+  <text x="50" y="210" fill="#6B7280" font-size="11">Income:</text>
+  <text x="110" y="210" fill="#1A3FBA" font-size="11" font-weight="600">LP fees + farming</text>
+  <text x="50" y="230" fill="#6B7280" font-size="11">Price exposure:</text>
+  <text x="150" y="230" fill="#1A3FBA" font-size="11" font-weight="600">Yes (leveraged)</text>
+
+  <!-- WaW -->
+  <rect x="278" y="55" width="245" height="190" rx="12" fill="white" filter="url(#scs)"/>
+  <rect x="278" y="55" width="245" height="45" rx="12" fill="#4568D0"/>
+  <rect x="278" y="85" width="245" height="15" fill="#4568D0"/>
+  <text x="400" y="82" text-anchor="middle" fill="white" font-size="15" font-weight="700">Wick and Wait</text>
+  <text x="400" y="120" text-anchor="middle" fill="#1E2A4A" font-size="12">Concentrated liquidity with</text>
+  <text x="400" y="136" text-anchor="middle" fill="#1E2A4A" font-size="12">automated repositioning</text>
+  <line x1="298" y1="148" x2="503" y2="148" stroke="#EEF1FB" stroke-width="1"/>
+  <text x="308" y="170" fill="#6B7280" font-size="11">Risk:</text>
+  <text x="378" y="170" fill="#4568D0" font-size="11" font-weight="600">Medium</text>
+  <text x="308" y="190" fill="#6B7280" font-size="11">Min. deposit:</text>
+  <text x="398" y="190" fill="#4568D0" font-size="11" font-weight="600">$100</text>
+  <text x="308" y="210" fill="#6B7280" font-size="11">Income:</text>
+  <text x="368" y="210" fill="#4568D0" font-size="11" font-weight="600">LP fees + farming</text>
+  <text x="308" y="230" fill="#6B7280" font-size="11">Price exposure:</text>
+  <text x="408" y="230" fill="#4568D0" font-size="11" font-weight="600">Yes (concentrated)</text>
+
+  <!-- Delta Neutral -->
+  <rect x="536" y="55" width="245" height="190" rx="12" fill="white" filter="url(#scs)"/>
+  <rect x="536" y="55" width="245" height="45" rx="12" fill="#81A1EE"/>
+  <rect x="536" y="85" width="245" height="15" fill="#81A1EE"/>
+  <text x="658" y="82" text-anchor="middle" fill="white" font-size="15" font-weight="700">Delta Neutral</text>
+  <text x="658" y="120" text-anchor="middle" fill="#1E2A4A" font-size="12">Hedge spot against short</text>
+  <text x="658" y="136" text-anchor="middle" fill="#1E2A4A" font-size="12">for funding rate income</text>
+  <line x1="556" y1="148" x2="761" y2="148" stroke="#EEF1FB" stroke-width="1"/>
+  <text x="566" y="170" fill="#6B7280" font-size="11">Risk:</text>
+  <text x="636" y="170" fill="#81A1EE" font-size="11" font-weight="600">Low-Medium</text>
+  <text x="566" y="190" fill="#6B7280" font-size="11">Min. deposit:</text>
+  <text x="656" y="190" fill="#81A1EE" font-size="11" font-weight="600">$250</text>
+  <text x="566" y="210" fill="#6B7280" font-size="11">Income:</text>
+  <text x="626" y="210" fill="#81A1EE" font-size="11" font-weight="600">Funding rates</text>
+  <text x="566" y="230" fill="#6B7280" font-size="11">Price exposure:</text>
+  <text x="666" y="230" fill="#81A1EE" font-size="11" font-weight="600">No (hedged)</text>
+</svg>

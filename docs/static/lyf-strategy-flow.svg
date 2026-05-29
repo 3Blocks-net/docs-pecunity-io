@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="system-ui, sans-serif">
+  <defs>
+    <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EEF1FB"/>
+      <stop offset="100%" stop-color="#DDE3F7"/>
+    </linearGradient>
+    <filter id="ls">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1A3FBA" flood-opacity="0.1"/>
+    </filter>
+    <marker id="larrow" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#81A1EE"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" rx="16" fill="url(#lbg)"/>
+
+  <text x="400" y="35" text-anchor="middle" fill="#1E2A4A" font-size="18" font-weight="700">Leveraged Yield Farming Flow</text>
+
+  <!-- Row 1 -->
+  <rect x="30" y="60" width="220" height="80" rx="12" fill="white" filter="url(#ls)"/>
+  <rect x="30" y="60" width="220" height="6" rx="3" fill="#1A3FBA"/>
+  <text x="140" y="95" text-anchor="middle" fill="#1E2A4A" font-size="14" font-weight="600">1. Supply Collateral</text>
+  <text x="140" y="115" text-anchor="middle" fill="#6B7280" font-size="11">Deposit your token to Aave v3</text>
+
+  <path d="M255 100 L285 100" stroke="#81A1EE" stroke-width="2" fill="none" marker-end="url(#larrow)"/>
+
+  <rect x="290" y="60" width="220" height="80" rx="12" fill="white" filter="url(#ls)"/>
+  <rect x="290" y="60" width="220" height="6" rx="3" fill="#4568D0"/>
+  <text x="400" y="95" text-anchor="middle" fill="#1E2A4A" font-size="14" font-weight="600">2. Borrow</text>
+  <text x="400" y="115" text-anchor="middle" fill="#6B7280" font-size="11">Borrow quote token against collateral</text>
+
+  <path d="M515 100 L545 100" stroke="#81A1EE" stroke-width="2" fill="none" marker-end="url(#larrow)"/>
+
+  <rect x="550" y="60" width="220" height="80" rx="12" fill="white" filter="url(#ls)"/>
+  <rect x="550" y="60" width="220" height="6" rx="3" fill="#81A1EE"/>
+  <text x="660" y="95" text-anchor="middle" fill="#1E2A4A" font-size="14" font-weight="600">3. Provide Liquidity</text>
+  <text x="660" y="115" text-anchor="middle" fill="#6B7280" font-size="11">Add both tokens to PancakeSwap v3</text>
+
+  <!-- Arrow down -->
+  <path d="M660 145 L660 175" stroke="#81A1EE" stroke-width="2" fill="none" marker-end="url(#larrow)"/>
+
+  <!-- Row 2 -->
+  <rect x="550" y="180" width="220" height="80" rx="12" fill="white" filter="url(#ls)"/>
+  <rect x="550" y="180" width="220" height="6" rx="3" fill="#A4BDFA"/>
+  <text x="660" y="215" text-anchor="middle" fill="#1E2A4A" font-size="14" font-weight="600">4. Earn LP Fees</text>
+  <text x="660" y="235" text-anchor="middle" fill="#6B7280" font-size="11">Trading fees accumulate in your position</text>
+
+  <path d="M545 220 L515 220" stroke="#81A1EE" stroke-width="2" fill="none" marker-end="url(#larrow)"/>
+
+  <rect x="290" y="180" width="220" height="80" rx="12" fill="white" filter="url(#ls)"/>
+  <rect x="290" y="180" width="220" height="6" rx="3" fill="#CFD1FF"/>
+  <text x="400" y="215" text-anchor="middle" fill="#1E2A4A" font-size="14" font-weight="600">5. Collect Rewards</text>
+  <text x="400" y="235" text-anchor="middle" fill="#6B7280" font-size="11">Harvest MasterChef farming rewards</text>
+
+  <path d="M285 220 L255 220" stroke="#81A1EE" stroke-width="2" fill="none" marker-end="url(#larrow)"/>
+
+  <rect x="30" y="180" width="220" height="80" rx="12" fill="#1A3FBA" filter="url(#ls)"/>
+  <text x="140" y="215" text-anchor="middle" fill="white" font-size="14" font-weight="600">6. Rebalance</text>
+  <text x="140" y="235" text-anchor="middle" fill="#A4BDFA" font-size="11">Monitor health factor and reposition</text>
+
+  <!-- Loop arrow -->
+  <path d="M140 265 L140 310 L660 310 L660 265" stroke="#1A3FBA" stroke-width="2" fill="none" stroke-dasharray="6,4" marker-end="url(#larrow)"/>
+  <rect x="340" y="298" width="120" height="24" rx="8" fill="white"/>
+  <text x="400" y="315" text-anchor="middle" fill="#1A3FBA" font-size="11" font-weight="600">Repeats automatically</text>
+
+  <!-- Protocols -->
+  <rect x="200" y="355" width="120" height="30" rx="8" fill="white" filter="url(#ls)"/>
+  <text x="260" y="375" text-anchor="middle" fill="#4568D0" font-size="12" font-weight="600">Aave v3</text>
+
+  <rect x="340" y="355" width="140" height="30" rx="8" fill="white" filter="url(#ls)"/>
+  <text x="410" y="375" text-anchor="middle" fill="#4568D0" font-size="12" font-weight="600">PancakeSwap v3</text>
+
+  <rect x="500" y="355" width="120" height="30" rx="8" fill="white" filter="url(#ls)"/>
+  <text x="560" y="375" text-anchor="middle" fill="#4568D0" font-size="12" font-weight="600">BNB Chain</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" font-family="system-ui, sans-serif">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EEF1FB"/>
+      <stop offset="100%" stop-color="#DDE3F7"/>
+    </linearGradient>
+    <filter id="fs">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#1A3FBA" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  <rect width="800" height="320" rx="16" fill="url(#fbg)"/>
+
+  <text x="400" y="35" text-anchor="middle" fill="#1E2A4A" font-size="18" font-weight="700">Fee Distribution</text>
+
+  <!-- Pay with PEC -->
+  <text x="200" y="65" text-anchor="middle" fill="#1A3FBA" font-size="14" font-weight="700">Pay with $PEC (20% discount)</text>
+
+  <rect x="30" y="80" width="140" height="60" rx="10" fill="#1A3FBA" filter="url(#fs)"/>
+  <text x="100" y="107" text-anchor="middle" fill="white" font-size="13" font-weight="600">Burned</text>
+  <text x="100" y="126" text-anchor="middle" fill="#A4BDFA" font-size="20" font-weight="700">40%</text>
+
+  <rect x="185" y="80" width="140" height="60" rx="10" fill="#4568D0" filter="url(#fs)"/>
+  <text x="255" y="107" text-anchor="middle" fill="white" font-size="13" font-weight="600">Automation</text>
+  <text x="255" y="126" text-anchor="middle" fill="#CFD1FF" font-size="20" font-weight="700">27.5%</text>
+
+  <rect x="30" y="150" width="140" height="60" rx="10" fill="#81A1EE" filter="url(#fs)"/>
+  <text x="100" y="177" text-anchor="middle" fill="white" font-size="13" font-weight="600">Treasury</text>
+  <text x="100" y="196" text-anchor="middle" fill="white" font-size="20" font-weight="700">20%</text>
+
+  <rect x="185" y="150" width="140" height="60" rx="10" fill="#A4BDFA" filter="url(#fs)"/>
+  <text x="255" y="177" text-anchor="middle" fill="#1E2A4A" font-size="13" font-weight="600">Strategy Creator</text>
+  <text x="255" y="196" text-anchor="middle" fill="#1E2A4A" font-size="20" font-weight="700">10%</text>
+
+  <!-- Divider -->
+  <line x1="395" y1="60" x2="395" y2="280" stroke="#CFD1FF" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Pay with other tokens -->
+  <text x="600" y="65" text-anchor="middle" fill="#1A3FBA" font-size="14" font-weight="700">Pay with other tokens</text>
+
+  <rect x="430" y="80" width="140" height="60" rx="10" fill="#1A3FBA" filter="url(#fs)"/>
+  <text x="500" y="107" text-anchor="middle" fill="white" font-size="13" font-weight="600">Burned as $PEC</text>
+  <text x="500" y="126" text-anchor="middle" fill="#A4BDFA" font-size="20" font-weight="700">50%</text>
+
+  <rect x="585" y="80" width="140" height="60" rx="10" fill="#4568D0" filter="url(#fs)"/>
+  <text x="655" y="107" text-anchor="middle" fill="white" font-size="13" font-weight="600">Automation</text>
+  <text x="655" y="126" text-anchor="middle" fill="#CFD1FF" font-size="20" font-weight="700">27.5%</text>
+
+  <rect x="430" y="150" width="140" height="60" rx="10" fill="#81A1EE" filter="url(#fs)"/>
+  <text x="500" y="177" text-anchor="middle" fill="white" font-size="13" font-weight="600">Strategy Creator</text>
+  <text x="500" y="196" text-anchor="middle" fill="white" font-size="20" font-weight="700">10%</text>
+
+  <rect x="585" y="150" width="140" height="60" rx="10" fill="#A4BDFA" filter="url(#fs)"/>
+  <text x="655" y="177" text-anchor="middle" fill="#1E2A4A" font-size="13" font-weight="600">Treasury</text>
+  <text x="655" y="196" text-anchor="middle" fill="#1E2A4A" font-size="20" font-weight="700">10%</text>
+
+  <!-- Bottom note -->
+  <rect x="200" y="240" width="400" height="55" rx="10" fill="white" filter="url(#fs)"/>
+  <text x="400" y="262" text-anchor="middle" fill="#1A3FBA" font-size="13" font-weight="700">Deflationary by design</text>
+  <text x="400" y="282" text-anchor="middle" fill="#6B7280" font-size="12">Every transaction burns $PEC, reducing supply over time</text>
+</svg>
